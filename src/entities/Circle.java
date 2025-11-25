@@ -2,13 +2,9 @@ package entities;
 
 import entities_enum.Color;
 
-public class Circle extends Shape{
+public class Circle extends AbstractShape{
 	
 	private double radius;
-	
-	public Circle() {
-		super();
-	}
 	
 	public Circle(Color color, double radius) {
 		super(color);

@@ -2,15 +2,10 @@ package entities;
 
 import entities_enum.Color;
 
-public class Retangle extends Shape{
+public class Retangle extends AbstractShape{
 	private double width;
 	private double height;
 	
-	
-	public Retangle() {
-		super();
-	}
-		
 	public Retangle(Color color, double width, double height) {
 		super(color);
 		this.width = width;
